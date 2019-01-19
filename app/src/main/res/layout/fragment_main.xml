@@ -1,0 +1,82 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_container"
+    tools:context="com.example.android.miwok.Fragments.MainFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/mainbg"
+        android:orientation="vertical"
+        tools:context="com.example.android.miwok.MainActivity"
+        tools:ignore="UselessParent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:backgroundTint="@color/category_numbers"
+        tools:ignore="UnusedAttribute">
+
+        <TextView
+            android:id="@+id/numbers"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Numbers"
+            android:textAlignment="center"
+            tools:ignore="HardcodedText" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:backgroundTint="@color/category_family"
+        tools:ignore="UnusedAttribute">
+
+        <TextView
+            android:id="@+id/familyN"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Family Members"
+            android:textAlignment="center"
+            tools:ignore="HardcodedText" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:backgroundTint="@color/category_colors"
+        tools:ignore="UnusedAttribute">
+
+        <TextView
+            android:id="@+id/colors"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Colors"
+            android:textAlignment="center"
+            tools:ignore="HardcodedText" />
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:backgroundTint="@color/category_phrases"
+        tools:ignore="UnusedAttribute">
+
+        <TextView
+            android:id="@+id/phrases"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Phrases"
+            android:textAlignment="center"
+            tools:ignore="HardcodedText" />
+    </FrameLayout>
+</LinearLayout>
+
+</FrameLayout>
