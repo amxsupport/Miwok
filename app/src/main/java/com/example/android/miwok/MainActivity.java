@@ -49,11 +49,4 @@ public class MainActivity extends AppCompatActivity {
             transact.commit();
         }
     }
-
-//    @Override
-//    protected void onStop() {
-//        super.onStop();
-//        itemAdapter.releaseMediaPlayer();
-//    }
-
 }
